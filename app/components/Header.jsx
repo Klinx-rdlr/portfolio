@@ -20,7 +20,8 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hi! I'm Rhode Danniel Reyes <Image src={assets.hand_icon} alt="" />
+        Hi! I'm Rhode Danniel Reyes{" "}
+        <Image src={assets.hand_icon} alt="" className="w-8 mb-1" />
       </motion.h3>
 
       <motion.h1
